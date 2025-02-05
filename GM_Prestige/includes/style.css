@@ -1,0 +1,108 @@
+/* body */
+body{
+	font-family:"Poppins", sans-serif-serif;
+	background-color:#f9f9f9;
+	margin: 0;
+	padding: 0;
+}
+
+/*Header*/
+header{
+	background-color: #333;
+	color:#fff;
+	padding: 20px;
+	text-align: center;
+}
+
+/* Header 1 */
+h1 {
+	font-family:"Poppins",sans-serif;
+	font-size:24px;
+	font-weight:500;
+	color:#333;
+	margin-bottom:20px;
+	text-align:center;
+}
+
+/* Header 2 */
+h2 {
+	font-family:"Roboto",sans-serif;
+	font-size:20px;
+	font-weight:200;
+	color:#555;
+	margin-bottom:15px;
+	text-align:center
+}
+
+
+/* Center the form */
+.section1 {
+  max-width: 100px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #EDEDED;
+}
+
+/* labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* inputs */
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  font-family:"Poppins" sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; 
+}
+
+/* submit button */
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #9e9e9e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/*  submit button on hover */
+input[type="submit"]:hover {
+  background-color: #616161;
+}
+
+
+/*  form for output*/
+.output-container {
+	margin: 20px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: #f9f9f9;
+}
+.output-container h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.output-container p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.output-container strong {
+    font-weight: bold;
+}
+
